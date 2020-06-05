@@ -2,7 +2,9 @@
   --bg-main: #d1d1d1;
   --bg-secondary: #fff;
   --box-color: #1b6ca8;
+  --blue: #1b6ca8;
   --green: #35d0ba;
+  --yellow: #ffcd3c;
 }
 
 *{
@@ -32,12 +34,20 @@ body {
   margin-bottom: 100px;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .cajas .caja {
-  width: 100px;
+  width: 120px;
+  height: 120px;
   background-color: var(--box-color);
   margin: 10px;
   text-align: center;
   padding: 30px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .botones {
