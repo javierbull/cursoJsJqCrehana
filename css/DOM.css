@@ -42,3 +42,7 @@ body {
 .fondo-rojo {
   background-color: tomato;
 }
+
+.display {
+  display: none;
+}

@@ -1,15 +1,11 @@
+// alert('hola');
 var parrafos = document.getElementsByClassName('texto');
 
 parrafos[0].style.width = '80%';
+parrafos[0].style.border = '1rem solid salmon';
 
-parrafos[0].style.padding = '0px';
+var btn = document.getElementById('boton');
 
-parrafos[0].style.border = 'solid 1rem tomato'
-
-var boton = document.getElementById('boton');
-
-boton.addEventListener('click', function(){
-  parrafos[0].style.width = '100%';
-  parrafos[0].style.padding = '1rem';
-  parrafos[0].style.border = 'none';
+btn.addEventListener('click', function(){
+  parrafos[0].classList.toggle('display');
 });
