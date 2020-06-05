@@ -1,0 +1,90 @@
+:root {
+  --bg-main: #d1d1d1;
+  --bg-secondary: #fff;
+  --box-color: #1b6ca8;
+  --green: #35d0ba;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-main);
+  height: 100vh;
+}
+
+.contenedor {
+  background-color: var(--bg-secondary);
+  width: 70%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cajas {
+  margin: 20px;
+  display: flex;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.d-start {
+  justify-content: flex-start;
+}
+
+.d-end {
+  justify-content: flex-end;
+}
+
+.d-spaceAround {
+  justify-content: space-around;
+}
+
+.d.spaceBetween {
+  justify-content: space-between;
+}
+
+.d-center {
+  justify-content: center;
+}
+
+.cajas .caja {
+  width: 100px;
+  background-color: var(--box-color);
+  margin: 10px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.botones {
+  /* background-color: yellow; */
+  width: 100%;
+  text-align: center;
+}
+
+hr {
+  margin-bottom: 0;
+}
+
+.content-btn {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.boton {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid var(--green);
+  border-radius: 5px;
+  color: var(--green);
+}
+
+.boton:hover {
+  background-color: var(--green);
+  color: white;
+}
