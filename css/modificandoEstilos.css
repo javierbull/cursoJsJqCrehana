@@ -88,3 +88,8 @@ hr {
   background-color: var(--green);
   color: white;
 }
+
+.btn-active {
+  background-color: var(--green);
+  color: white;
+}

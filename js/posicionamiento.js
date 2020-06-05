@@ -26,3 +26,13 @@ spaceAround.addEventListener('click', function(){
 spaceBetween.addEventListener('click', function(){
   cajas.style.justifyContent = 'space-between';
 });
+
+var content = document.getElementById("contentButtons");
+var btns = content.getElementsByClassName("boton");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("btn-active");
+  current[0].className = current[0].className.replace("btn-active", "");
+  this.className += " btn-active ";
+  });
+}
