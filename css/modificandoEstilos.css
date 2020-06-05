@@ -32,26 +32,6 @@ body {
   margin-bottom: 100px;
 }
 
-.d-start {
-  justify-content: flex-start;
-}
-
-.d-end {
-  justify-content: flex-end;
-}
-
-.d-spaceAround {
-  justify-content: space-around;
-}
-
-.d.spaceBetween {
-  justify-content: space-between;
-}
-
-.d-center {
-  justify-content: center;
-}
-
 .cajas .caja {
   width: 100px;
   background-color: var(--box-color);
