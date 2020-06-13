@@ -22,10 +22,10 @@ $(document).ready(function(){
   // $('#segundo').css('background', 'blue');
 
   // CAMBIANDO VARIAS PROPIEDADES
-  $('#segundo').css({
-    background: 'gold',
-    color: 'purple'
-  })
+  // $('#segundo').css({
+  //   background: 'gold',
+  //   color: 'purple'
+  // })
 
 
 });
